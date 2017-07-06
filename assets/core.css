@@ -1,0 +1,18 @@
+@mixins {
+	borderThin: 1px solid colorBlue;
+	colorBlue: #00f;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: colorBlue;
+}
+
+p {
+	color: colorRed;
+	border: borderThin;
+}
